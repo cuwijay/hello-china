@@ -4,7 +4,8 @@ commit_array_2016_zgws=('2016-01-11T00:08:08.000Z' '2016-01-15T00:08:08.000Z' '2
 
 for i in "${commit_array_2016_zgws[*]}";
     do
-        echo "$i" > ./commit.text
+        echo "$i" > ./commit.txt
+        echo "$i \n"
         git add .
         git commit --date="$i" -m "$i"
     done
@@ -15,7 +16,7 @@ commit_array_2017_wanzg=('2017-01-10T00:08:08.000Z' '2017-01-16T00:08:08.000Z' '
 
 for i in "${commit_array_2017_wanzg[*]}";
     do
-        echo "$i" > ./commit.text
+        echo "$i" > ./commit.txt
         git add .
         git commit --date="$i" -m "$i"
     done
@@ -27,7 +28,7 @@ commit_array_2018_china=('2018-01-07T00:08:08.000Z' '2018-01-13T00:08:08.000Z' '
 
 for i in "${commit_array_2018_china[*]}";
     do
-        echo "$i" > ./commit.text
+        echo "$i" > ./commit.txt
         git add .
         git commit --date="$i" -m "$i"
     done
@@ -40,7 +41,7 @@ commit_array_2019_70=('2019-01-22T00:08:08.000Z' '2019-01-28T00:08:08.000Z' '201
 
 for i in "${commit_array_2019_70[*]}";
     do
-        echo "$i" > ./commit.text
+        echo "$i" > ./commit.txt
         git add .
         git commit --date="$i" -m "$i"
     done

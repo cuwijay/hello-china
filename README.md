@@ -1,4 +1,6 @@
-用来绘制contributions的格式
+# github娱乐contributions
+用来绘制contributions的花样格式；
+
 
 ### win10
 windows10使用powerShell，mac也可以安装并运行：

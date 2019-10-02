@@ -33,8 +33,8 @@ for($i = 0; $i -lt $commit_array_2016_zgws.length; $i++){
     $date = $commit_array_2016_zgws[$i]
     Set-Content .\commit.txt $date
     git add .
-    git commit --date=$date -am $date
-    # Write-Host "----git commit --date=$date -am $date----"
+    git commit --date=$date -m $date
+    # Write-Host "----git commit --date=$date -m $date----"
 }
 
 
@@ -83,8 +83,8 @@ for($i = 0; $i -lt $commit_array_2017_wanzg.length; $i++){
     $date = $commit_array_2017_wanzg[$i]
     Set-Content .\commit.txt $date
     git add .
-    git commit --date=$date -am $date
-    # Write-Host "----git commit --date=$date -am $date----"
+    git commit --date=$date -m $date
+    # Write-Host "----git commit --date=$date -m $date----"
 }
 
 
@@ -97,7 +97,7 @@ $commit_array_2018_china = @(
     "2018-02-19T00:08:08.000Z","2018-02-21T00:08:08.000Z","2018-02-25T00:08:08.000Z","2018-03-01T00:08:08.000Z",
     "2018-03-04T00:08:08.000Z","2018-03-09T00:08:08.000Z","2018-03-12T00:08:08.000Z","2018-03-17T00:08:08.000Z",
     "2018-03-20T00:08:08.000Z","2018-03-24T00:08:08.000Z","2018-03-26T00:08:08.000Z","2018-03-31T00:08:08.000Z",
-    "2018-04-01T00:08:08.000Z","2018-04-06T00:08:08.000Z","2018-04-12T00:08:08.000Z","2018-04-20T00:08:08.000Z",
+    "2018-04-01T00:08:08.000Z","2018-04-06T00:08:08.000Z","2018-04-12T00:08:08.000Z",
     "2018-04-16T00:08:08.000Z","2018-04-18T00:08:08.000Z","2018-04-24T00:08:08.000Z","2018-05-15T00:08:08.000Z",
     "2018-05-16T00:08:08.000Z","2018-05-21T00:08:08.000Z","2018-05-24T00:08:08.000Z","2018-05-27T00:08:08.000Z",
     "2018-06-01T00:08:08.000Z","2018-06-03T00:08:08.000Z","2018-06-09T00:08:08.000Z","2018-06-10T00:08:08.000Z",
@@ -125,8 +125,8 @@ for($i = 0; $i -lt $commit_array_2018_china.length; $i++){
     $date = $commit_array_2018_china[$i]
     Set-Content .\commit.txt $date
     git add .
-    git commit --date=$date -am $date
-    # Write-Host "----git commit --date=$date -am $date----"
+    git commit --date=$date -m $date
+    # Write-Host "----git commit --date=$date -m $date----"
 }
 
 
@@ -176,8 +176,8 @@ for($i = 0; $i -lt $commit_array_2019_70.length; $i++){
     $date = $commit_array_2019_70[$i]
     Set-Content .\commit.txt $date
     git add .
-    git commit --date=$date -am $date
-    # Write-Host "----git commit --date=$date -am $date----"
+    git commit --date=$date -m $date
+    # Write-Host "----git commit --date=$date -m $date----"
 }
 
 
